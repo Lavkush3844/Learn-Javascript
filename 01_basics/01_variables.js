@@ -1,6 +1,7 @@
 const accountID = 1234;
 let accountName = "Lavkush Varma";
 var accountCity = "Surat";
+let accountState;
 accountEmail = "lavkush3844@gmail.com";
 
 accountName = "Varma";
@@ -12,4 +13,4 @@ accountEmail = "lavkush@gmail.com";
     because of issue in block scope and functional scope
 */
 
-console.table([accountID, accountName, accountCity, accountEmail]);
+console.table([accountID, accountName, accountCity, accountEmail, accountState]);
