@@ -19,11 +19,9 @@ let timeStamp = Date.now();
 // console.log(Math.floor(Date.now() / 1000));
 
 let newDate = new Date()
-// console.log(newDate);
-newDate.toLocaleString('default', {
-    weekday : "long"
-})
-console.log(newDate);
+console.log(newDate.toLocaleString('default', {
+    day: "2-digit"
+}));
 
 
 
